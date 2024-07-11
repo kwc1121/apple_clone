@@ -8,16 +8,16 @@
 </head>
 <body>
     <header>
-        <button>스토어</button>
-        <button>Mac</button>
-        <button>iPad</button>
-        <button>iPhone</button>
-        <button>Watch</button>
-        <button>Airpods</button>
-        <button>TV 및 홈</button>
-        <button>엔터테인먼트</button>
-        <button>액세서리</button>
-        <button>고객지원</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/store'">스토어</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/mac'">Mac</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/ipad'">iPad</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/iphone'">iPhone</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/watch'">Watch</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/airpods'">Airpods</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/mac'">TV 및 홈</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/services'">엔터테인먼트</button>
+        <button onclick="window.location.href='https:/www.apple.com/kr/accessories/all'">액세서리</button>
+        <button onclick="window.location.href='https:/www.apple.com/ko-kr?cid=gn-ols-home-hp-tab'">고객지원</button>
         <button></button>
         <button></button>
         <img src="search.png" alt="search">
@@ -26,9 +26,38 @@
 
     <div id="ipad">
         <h1>iPad Pro</h1>
-        <p>놀라우리만치 얇다 엄청나게 강력하다.</p>
-        <button id="look">더 알아보기</button>
-        <button id="buy">구입하기</button>
+        <p>놀라우리만치 얇다. 엄청나게 강력하다.</p>
+        <div class="btn">
+            <button id="look" >더 알아보기</button>
+            <button id="buy" >구입하기</button>
+        </div>
     </div>
+
+    <div class="empty"></div>
+
+    <div id="iphone">
+        <h1>iPhone 15 pro</h1>
+        <p>티타늄. 초강력. 초경량. 초프로.</p>
+        <div class="btn2">
+            <button id="look2" >더 알아보기</button>
+            <button id="buy2" >구입하기</button>
+        </div>
+    </div>
+
+    <div class="empty"></div>
+
+    <div id="ai">
+        <h1>Apple Intelligence</h1><br>
+        <p id="t1">우리 모두를 위한 AI.</p>
+        <p id="t2">올 하반기 베타(미국 영어)로 제공될 예정입니다. <sup>1</sup></p>
+        <div class="btn3">
+            <button id="look3">더 알아보기</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+
 </body>
 </html>
