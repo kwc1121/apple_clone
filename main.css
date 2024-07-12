@@ -81,7 +81,7 @@ header img{
     font-weight: 400;
 }
 
-#look{
+.look{
     width: 105px;
     height: 40px;
     color: #fff;
@@ -91,7 +91,7 @@ header img{
     margin: 0px 10px;
 }
 
-#buy{
+.buy{
     border: 2px solid #0071E3;
     width: 90px;
     height: 40px;
@@ -147,15 +147,6 @@ header img{
     padding-top: 20px;
 }
 
-#look2{
-    width: 105px;
-    height: 40px;
-    color: #fff;
-    border-radius: 980px;
-    background-color: #0071E3;
-    border: none;
-    margin: 0px 10px;
-}
 
 #buy2{
     border: 2px solid #0071E3;
@@ -179,7 +170,7 @@ header img{
     background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: whitesmoke;
+    
 }
 
 #ai h1{
@@ -205,16 +196,7 @@ header img{
     font-size: 10px;
 }
 
-#look3{
-    width: 105px;
-    height: 45px;
-    text-align: center;
-    color: #fff;
-    border-radius: 980px;
-    background-color: #0071E3;
-    border: none;
-    margin: 0px 10px;
-}
+
 
 .btn3{
     text-align: center;
@@ -222,10 +204,11 @@ header img{
 }
 
 #ai2{
-    background-color: whitesmoke;
+    
     width: 49.5%;
     height: 410px;
     background-image: url(mac2.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     float: left;
     
@@ -259,13 +242,12 @@ header img{
     width: 49.5%;
     height: 410px;
     background-image: url(iphone2.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     float: right;
 }
 
-.a1{
-    background-color: white;
-}
+
 
 
 #container3 h2{
@@ -295,7 +277,7 @@ header img{
     margin: 0px 10px;
 }
 
-#buy3{
+.buy3{
     border: 2px solid #0071E3;
     width: 90px;
     height: 40px;
@@ -303,4 +285,115 @@ header img{
     color: #0071E3;
     border-radius: 980px;
     text-align: center;
+}
+
+#watch{
+    width: 49.5%;
+    height: 430px;
+    background-image: url(watch_back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    float: left;
+}
+
+#container5{
+    width: 50%;
+    height: 60px;
+    background-image: url(watch.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    margin-left: 117px ;
+    margin-top: 26px;
+}
+
+
+#container6{
+    color: white;
+    font-size: 20xp;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#btn6{
+    text-align: center;
+}
+
+
+
+#container8{
+    width: 49.5%;
+    height: 430px;
+    background-image: url(mac3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+#container9 h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+#container10 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#btn7{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#ipadair{
+    width : 49.5%;
+    height: 430px;
+    background-image: url(ipadback.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#container12{
+    width: 50%;
+    height: 60px;
+    background-image: url(ipadair.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto ;
+    margin-top: 20px;
+
+}
+
+#container13{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#look5{
+    width: 105px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 980px;
+    background-color: black;
+    border: none;
+    margin: 0px 10px;
+}
+
+#buy4{
+    border: 2px solid black;
+    width: 90px;
+    height: 40px;
+    
+    color: #0071E3;
+    border-radius: 980px;
+    text-align: center;
+
 }
