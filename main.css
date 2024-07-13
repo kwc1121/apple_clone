@@ -362,7 +362,7 @@ header img{
 
 #container12{
     width: 50%;
-    height: 60px;
+    height: 38px;
     background-image: url(ipadair.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -373,7 +373,7 @@ header img{
 
 #container13{
     text-align: center;
-    padding-bottom: 40px;
+    
 }
 
 #look5{
@@ -391,9 +391,60 @@ header img{
     border: 2px solid black;
     width: 90px;
     height: 40px;
-    
-    color: #0071E3;
+    background-color: transparent;
+    color: black;
     border-radius: 980px;
     text-align: center;
 
+}
+
+#container14{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#container15{
+    width: 49.5%;
+    height: 430px;
+    background-image: url(tradeback.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+#container16{
+    width: 50%;
+    height: 40px;
+    background-image: url(trade.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#container17{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#btn9{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#container19{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+    margin-top: 1250px;
+    
+}
+
+#container19{
+    color: gray;
+    text-align: center;
+    font-size: 13px;
+}
+#container19{
+    
 }
